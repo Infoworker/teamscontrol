@@ -13,4 +13,4 @@ Teams Control helps your organization enforce the policies and governance rules 
 ### Prevent Duplications
 The Administrator can give users approval rights for different templates, making it easier for your company to approve or reject the requests. Users with approval rights and administrators can prevent duplicated teams by rejecting new teams requested and guide the user who requested the new team to the already existing team.
 
-![image.png](/.attachments/image-2721bc6d-0bdd-42ba-8db8-764a0df8f275.png)
+![image.png](https://github.com/Infoworker/teamscontrol/blob/master/.attachments/image-2721bc6d-0bdd-42ba-8db8-764a0df8f275.png)
