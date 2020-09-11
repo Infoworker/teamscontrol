@@ -32,7 +32,13 @@ _Italic_ text test here.
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/i3Y0XC56ILA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-
+::: mermaid
+graph TD
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+:::
 
 
 
