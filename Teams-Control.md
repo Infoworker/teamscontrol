@@ -10,7 +10,7 @@ See [roadmap](/Roadmap) for feature's that are coming.
 ## Business Value
 Teams Control helps your organization enforce the policies and governance rules that has been defined for Teams. It is possible to set a wide range of rules, for instance naming policy, external guest access, approvers etc. In addition Teams Control supports onboarding and offboarding of users. 
 
-### R
+### Ra
 
 ### Prevent Duplications
 The Administrator can give users approval rights for different templates, making it easier for your company to approve or reject the requests. Users with approval rights and administrators can prevent duplicated teams by rejecting new teams requested and guide the user who requested the new team to the already existing team.
