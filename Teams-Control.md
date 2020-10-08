@@ -1,7 +1,7 @@
 # About
 ## What is Teams Control?
 Teams Control is a solution for controlling the creation of Teams and Office 365 Groups.
-[Duplicates](#duplicates)
+[Duplicates](#duplicates) does [Business](#business-value)
 - Bullet list test
 - See how it works
 
