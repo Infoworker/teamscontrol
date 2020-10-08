@@ -1,8 +1,11 @@
+![image.png](https://raw.githubusercontent.com/Infoworker/teamscontrol/master/.attachments/image-2721bc6d-0bdd-42ba-8db8-764a0df8f275.png)
+
 # Getting started with Teams Control
-Teams Control 
+
+Teams Control is a management tool for Microsoft Teams developed by Infoworker to help organizations, businesses and people who uses Microsoft Teams to stay in control. 
 
 # Installation
-Teams Control can be installed via the in-built marketplace in Microsoft Teams. 
+Teams Control can be installed via the in-built app-store in Microsoft Teams. 
 
 # Register
 When Teams Control has been installed to Microsoft Teams, you have to register by filling out the registration form inside Teams Control. There you can choose between using a licens or try it out with a trial period. 
@@ -10,6 +13,8 @@ When Teams Control has been installed to Microsoft Teams, you have to register b
 ## License
 
 ## Trial period
+
+## Cost
 
 # Basic example of use
 
