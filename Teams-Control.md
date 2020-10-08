@@ -1,7 +1,7 @@
 # About
 ## What is Teams Control?
 Teams Control is a solution for controlling the creation of Teams and Office 365 Groups.
-
+[Duplicates](#duplicates)
 - Bullet list test
 - See how it works
 
@@ -54,6 +54,7 @@ Teams Control helps your organization enforce the policies and governance rules 
 
 ---
 
+<a name="duplicates"></a>
 ### Prevent Duplications
 The Administrator can give users approval rights for different templates, making it easier for your company to approve or reject the requests. Users with approval rights and administrators can prevent duplicated teams by rejecting new teams requested and guide the user who requested the new team to the already existing team.
 
