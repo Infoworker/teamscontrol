@@ -1,1 +1,8 @@
-Teams control will be updated on a regular basis. 
+# Current version of Teams Control
+TBD
+
+# Features planed
+TBD
+
+# Features requested
+TBD

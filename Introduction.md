@@ -1,6 +1,4 @@
 # Getting started with Teams Control
----
-
 Teams Control is a management tool for Microsoft Teams and Microsoft 365 developed by Infoworker to help organizations, businesses and people who uses Microsoft 365 to stay in control.
 
 ## Installation
@@ -12,31 +10,23 @@ Teams Control can be installed via the in-built app-store in Microsoft Teams.
 First time you open Teams Control after it has been installed to your Microsoft Teams, you have to register. Fill out the registration form and choose between using a license or start using your 30 day trial period.
 
 # License
----
 Teams Control supports three types of licenses:
 - Basic - All features
 - Standard - All features, with extended support
 - Premium - Fully customization
 
-| **Basic** | **Standard** | **Premium** |
-|--|--|--|
-| - All features <br/> - Support: Email | - All features<br/> - Support: Direct line<br/> - Enablement workshop  | - All features<br/> - Support: Premium<br/> - Custom workshops<br/> - Custom features<br/> - Custom branding<br/> - Own environment  |
-| 99$ / Month | 249$ / Month | Contact Infoworker |
+![Licenses.png](https://raw.githubusercontent.com/Infoworker/teamscontrol/master/.attachments/Licenses-e68df04a-0670-4551-987b-bedc589df8b3.png)
 _*One license covers one Microsoft 365 tenant_
 
 ## Trial period
 Teams control has an inbuilt trial period for 30 days. After 30 days it will deactivate and needs to be paired with a valid license for continued use.
 
-
 # Help and discussion
----
-Please head over to our official resource for Teams Control over at www.teamscontrol.com.
+Please head over to our official resource for Teams Control over at [www.teamscontrol.com.](https://www.teamscontrol.com) or Infoworkers company pages at [infoworker.no](https://infoworker.no/).
 
 You can contact us via our online form at https://teamscontrol.com/contact/.
 
-
 # Should you use Teams Control
----
 Teams control is a valuable tool for those organizations and business who uses Microsoft Teams and Microsoft 365, but you should also consider whether it's appropriate for your situation. **Don't use Teams Control just because someone said you should. Take some time to understand the potential benefits and trade-offs of using it.**
 
 Here are some suggestions on when it makes sense to use Teams Control:
