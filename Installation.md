@@ -7,8 +7,6 @@ Prior to this you need to install Overview & control Manifest, a zip-file, in Te
 
 ![installteamscontrol.gif](https://raw.githubusercontent.com/Infoworker/teamscontrol/master/.attachments/installteamscontrol-5330eb49-81a6-46a8-984e-180fc237d4d5.gif)
 
-# How to install Teams Control on Microsoft Teams
-
 To install Overview & Control on Teams, use these steps:
 
 1. Open Microsoft Teams
