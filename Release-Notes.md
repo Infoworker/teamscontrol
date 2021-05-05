@@ -1,3 +1,56 @@
+# Release notes April 15, 2021
+
+## Features and improvements
+
+### Request overview
+- New design for request overview. All the requests are now in one list and can be filtered on status. 
+- Added search field for requests. 
+- If you are an ordinary user, you will only see the view "My requests". 
+- If you are an approver of a template, you will also get a view for "My approvals".
+- Admin user can now se all the requests in the tenant and can approve/reject requests even though he/she is not an a approver for the corresponding template.
+- Added view for failed requests for Admin users. Admin user can now se requests that are created with errors or failed. 
+
+### Fixes
+- Minor fixes.
+
+# Release notes April 8, 2021
+
+## Features and improvements
+
+### Overview & Control End users, Owners and Approvers
+-  Details page was extended with functionality that allows to change role of user (owner/member/visitor) or remove user completely from group/team/SP site. In addition it was also added a "Leave group" button that allows logged in user to leave group/team/SP site if user is member/owner/visitor of it.
+-  It was added tooltip (info icon) for input fields in New request form, tooltip is visible for the input field if admin user added tooltip in Template settings.
+-  Added functionality that allows to handle channel folders in Edit channel form in Details page.
+-  It was changed submit process of request approval or request that doesn't need approval. Now user doesn't need to wait until all processes are finished to get success message, success message appears immediately and all team/group creation processes run in the background. User gets a notification in Teams when team is created (in case of team creating), it is also possible to check status of submitted request under requests overview in order to be sure that team/group is created.
+
+### Teams Control Admins
+-  It was added Custom tooltip setting for each field in Input field settings in Template settings, it is accessible via choosing More settings of target field. Custom tooltip setting is needed in order to end users could know how to fill input fields in New request form.
+
+### Fixes
+- Added hover text for buttons in the top right corner on the details page. For example "Go to team". 
+- Minor fixes.
+
+# Release notes March 24, 2021
+
+### Fixes
+-  Fixed update Overview settings bug.
+-  Removed red stars that indicate which fields are mandatory in Input field settings in Template settings, so that user is not confused that these fields should be filled in Template settings, however mandatory fields are still marked with red stars in New request form.
+
+# Release notes March 23, 2021
+
+## Features and improvements
+
+### Overview & Control Admins
+-  Overview settings were extended with extra fields that allow to limit access to create new group/team request from Overview. It is possible to choose one of three user categories - All users, Only global admin and teams admin users and Custom. When choosing Custom it appears an input field where admin can specify who can have access to create new requests, it can be either user or AD group.
+
+# Release notes March 22, 2021
+
+## Features and improvements
+
+### Fixes
+- The pop-up window for consenting app permissions when the app is installed  will no longer be blocked in Chrome browser
+ 
+
 # Release notes March 16, 2021
 
 ## Features and improvements
@@ -33,7 +86,7 @@
 
 ## Features and improvements
 
-### Teams Control Admins
+### Overview & Control Admins
 -  In template settings was removed possibility to reuse subconfigs (Input field settings), before it was possible to choose another existing Input field settings. Feature was removed according to its uselessness and to avoid overcomplexity of operations with templates.
 
 ### Fixes
