@@ -1,3 +1,66 @@
+# Release notes June 15, 2021
+
+## Features and improvements
+
+### Overview & Control Admins
+-  For new customers was added contact form that is mandatory to be filled. After installing application for first time and giving consent to all necessary permissions user will be forwarded to contact form. After submitting the form user will be forwarded to tab content and can start to use application. Filling the form is need in order to could contact new customers and control duration of trial period.
+
+# Release notes June 2, 2021
+
+### Fixes
+- Better support for dark mode
+- Small fix in details page update flow
+- Other minor fixes
+
+
+# Release notes May 27, 2021
+
+### Fixes
+- Fixed bug where some templates in new requests don't show
+- Fixed team/group provisioning flow bug that caused crush of whole flow in case of error during authentication against Sharepoint.
+
+
+# Release notes May 26, 2021
+
+## Features and improvements
+
+### Overview & Control Admins
+-  Edit template page was extended with visibility settings that allow to define users that are allowed to use template in New request page. Users can be defined based on users Azure Id, AD group user is owner/member of and other users AD data, such as company name, department, office, country and state.
+
+### Overview & Control End users, Owners and Approvers
+-  In New request page are shown just templates that are available for user based on visibility settings configured in template settings.
+
+### Fixes
+-  Minor fixes
+
+# Release notes May 20, 2021
+
+### Fixes
+- Fixed empty checkboxes in User access page.
+
+# Release notes May 18, 2021
+
+### Fixes
+- Fixed Delete request form missing buttons bug.
+- Minor fixes in request details page.
+
+# Release notes May 15, 2021
+
+## Features and improvements
+
+### Overview & Control End users, Owners and Approvers
+-  Create request functionality was modified so that now when clicking New request button user is navigated to the page for request creation instead of popup window as was before. New request page has more friendly interface and consists of several stages of creating a request. All templates are listed under first stage with description and other details that give user more information about templates than before, in addition it is possible to search and filter templates.
+
+- Request overview - Open request functionality was modified so that now user is directed to request details page when clicking Open request. Page contains team/group provisioning data, template description, request status and info button. Clicking on the info icon opens popup window that contains request details, error messages if request was created with errors and log that shows history of request status change with date, status, comments and person name that changed status of request (e.g. approved/rejected request etc.).
+- Request overview - was added Delete request action, request can be deleted only if it has status Awaiting approval.
+
+### Fixes
+- Create request - team/group name validation was improved and is now more correct than before.
+- Fixed disappearing of creation date and comment field from requests overview after approve/reject request.
+- Minor fixes.
+
+
+
 # Release notes April 15, 2021
 
 ## Features and improvements
