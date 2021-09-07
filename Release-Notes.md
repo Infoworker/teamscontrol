@@ -1,3 +1,59 @@
+# Release notes September 3, 2021
+
+### Fixes
+- Details page - fixed error with updating description that contains line breaks. 
+
+# Release notes August 27, 2021
+
+### Overview & Control End users, Owners and Approvers
+- It was added more user information in corresponding user input fields. Now when trying to find user it is shown user display name, user email and job title (if it is defined in AD), 
+
+# Release notes August 26, 2021
+
+### Overview & Control End users, Owners and Approvers
+- It was added functionality that allows to onboard MS 365 groups as owners/members/visitors to groups/teams/sites via details page and as part of provisioning.
+- It was added Sensitivity label field to new request form of SharePoint Communication site templates (showing of field must be enabled in corresponding templates settings) that allows to assign Sensitivity label to provisioned site (if it is allowed in tenant).
+
+### Teams Control Admins
+- It was added functionality that allows to add MS 365 groups as owners/members/visitors in template settings.
+- It was added Sensitivity label field to input field settings section of SharePoint Communication site templates that allows to choose sensitivity label that will be assigned to provisioned site (if assign label is allowed in tenant).
+
+
+# Release notes August 19, 2021
+
+### Teams Control Admins
+- Added check for Allow add guests and Sensitivity label fields. Check is based on tenant level group settings and is intended for limiting "allow add guests" and "assign sensitivity label" functions. If tenant group settings doesn't allow to add guests or assign labels, corresponding input fields will be disabled in template settings, request form and details page.
+
+### Fixes
+- Fixed change input fields data in details page bug. 
+
+# Release notes August 18, 2021
+
+### Fixes
+- Assign sensitivity label functionality was improved and now is more stable. It concerns assigning sensitivity label as part of group/team provisioning and group/team update via details page. 
+
+
+# Release notes August 17, 2021
+
+## Features and improvements
+
+### Overview & Control End users, Owners and Approvers
+- It was added sensitivity label field to group/team request form (if corresponding field is allowed to be shown in request in corresponding provisioning template) and group/team details page. Now user can see available sensitivity labels of organization (if some are created for organization) and assign label to group/team (if organization has minimum Azure Premium P1 license). Despite it Overview table was extended with Sensitivity label field.
+- Users have now the possibility to provision SharePoint Communication sites (if corresponding SP Communication site templates are created).
+- For educational tenants - users can now provision educational teams of types Class, PLC and Staff (if corresponding templates are created). This functionality is available only if tenant is educational.
+
+
+### Teams Control Admins
+- It was added sensitivity label field to template settings. Admin can see available sensitivity labels of organization (if some are created for organization) and choose sensitivity label in template settings (organization should have minimum Azure Premium P1 license to could assign label to group/team). 
+- SharePoint Communication site was added as available template type. Admin users can now create SP Communication site templates and define Communication site provisioning options such as site address, hub association, default language, time zone, external sharing settings, theme, header, footer and navigation look and folder structure in Documents library.
+- Team/Group templates were extended with SharePoint settings section that allows to define settings of SP site team/group is connected to. User can define such settings as external sharing settings, hub site connection, theme, header and folder structure in Documents library.
+- It was implemented SP site customization background job. Purpose of this job is to customize header, footer, navigation and some parts of external sharing settings that can't be customized immediately after SP site is provisioned. Job runs 30 minutes after SP site is provisioned and is a final stage of SP site customization.
+- For educational tenants - Class, PLC and Staff were added as available types of Team templates. These team types are visible only if tenant is educational.
+
+### Fixes
+- It was fixed filtering of external/blocked users in user input fields (Owners/Members/Visitors fields) in template settings, request form and details page. Now if adding of external users is limited by template/group settings, external users can't be found in user input fields. Before this functionality user could find external users, but received an error message if adding of external users was limited. When it comes to SP Communication site user fields and visitors field of MS 365 Group, it is now limited adding of blocked users. 
+- Fixed setting of Giphy content rating (part of Fun settings in Team settings).
+
 # Release notes June 15, 2021
 
 ## Features and improvements
