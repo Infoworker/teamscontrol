@@ -6,12 +6,12 @@ Overview & Control is a management tool for Microsoft Teams and Microsoft 365 de
 First time you open Overview & Control after it has been installed to your Microsoft Teams, you have to register. Fill out the registration form and choose between using a license or start using your 30 day trial period.
 
 ## License
-Overview & Control supports <a href="https://teamscontrol.com/pricing/" target="_blank">these licenses</a>.
+Overview & Control supports <a href="https://overviewcontrol.com/pricing/" target="_blank">these licenses</a>.
 
 ## Help and discussion
-Please head over to our official resource page <a href="https://teamscontrol.com/" target="_blank">Overview & Control</a>.
+Please head over to our official resource page <a href="https://overviewcontrol.com/" target="_blank">Overview & Control</a>.
 
-You can contact us via our online form at <a href="https://teamscontrol.com/contact/" target="_blank">Overview & Control</a>.
+You can contact us via our online form at <a href="https://overviewcontrol.com/contact/" target="_blank">Overview & Control</a>.
 
 
 ## About Overview & Control
@@ -27,4 +27,4 @@ Here are some suggestions on when it makes sense to use Overview & Control:
 **Video** (one minute)
 <a href="https://youtu.be/NcbmtWuJyrk" target="_blank">Overview & Control video</a>
 
-For more information, visit our web site <a href="https://teamscontrol.com/" target="_blank">Overview & Control</a>
+For more information, visit our web site <a href="https://overviewcontrol.com/" target="_blank">Overview & Control</a>
