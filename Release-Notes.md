@@ -1,3 +1,269 @@
+# Release notes January 31, 2022
+
+### Fixes
+- Minor fixes.
+
+# Release notes January 28, 2022
+
+### Fixes
+- Fixed handling of security groups that can possibly be members of MS365/security groups. Fix concerns onboarding MS365/security groups as owners/members to groups/teams via request form or details page.
+
+# Release notes January 27, 2022
+
+### Overview & Control Admins
+- It was added Integrations page to Settings tab. Integrations page contains currently only Documaster integration input form so that users who will take in use Documaster archive functionality can use this form to connect to Documaster API. After successfully connecting it will be added Documaster integration section to all templates where user can define archive structure. Defined archive structure will be also shown in details page of group provisioned with template that has enabled archive structure.
+- Teams settings section in template designer was improved with copy OneNote notebook and Planner plan functionality. This functionality is available in Tab settings section of Create channel/Edit channel form. When adding OneNote or Tasks by Planner and To Do tab user will be able to either create new Planner/OneNote or copy from existing. To be able to copy from existing OneNote/Planner user should know which group/team existing OneNote/Planner belong. User should first enter group name and choose corresponding group in search field and then click Search button to find notebooks/plans that this group contains.
+
+### Overview & Control End users, Owners and Approvers
+- Moved "New Request", "View Requests" and "Export for Excel" buttons to a compounded button "Actions" to improve user experience
+- Incoming requests now appears as a notification at the top of screen
+- Minor styling updates to Quick Details
+
+### Fixes
+- Fixed some bugs concerning onboarding groups as owners/members of groups/teams and private channels.
+
+# Release notes January 20, 2022
+
+### Overview & Control End users, Owners and Approvers
+- It was added possibility to onboard groups to private channels in team request form if corresponding template team settings allows defining private channel owners and members.
+- Implemented new styling to trial message bar, updated links
+
+### Fixes
+- Minor fixes.
+
+# Release notes January 19, 2022
+
+### Fixes
+- Minor overview and details page UI changes.
+
+# Release notes January 17, 2022
+
+### Overview & Control End users, Owners and Approvers
+- Group/team/site details page user interface was improved for better performance. It was added separate tabs for each category - "General" tab contains general group info such as name, description, last activity date etc., "Users" tab allows to handle group users (onboard, offboard, change user role), "Logs" tab provides details page action history, each log contains name of user that performed action, timestamp and action name. Team details page contains several additional tabs such as "Channels" that allows user to handle team channels, "Apps" where user can install/uninstall team apps and "Team settings" where owners and admin users can handle team settings.
+- The overview list received a new functionality named quick details. Clicking on a team/group/site in the overview list will open a drop down and give the user a more refined look at the team/group/site details. 
+- Limited onboarding blocked users as private channels members in team request form.
+
+### Fixes
+- Fixed overview search that hasn't worked as it should after performing group actions (delete, archive etc.).
+- Fixed Request settings bug that caused issues with New request button visibility for users added to Custom section of Request settings.
+
+
+
+# Release notes December 10, 2021
+
+### Overview & Control Admins
+- Template designer was improved with functionality that allows user to define how users should be onboarded to private channels in Teams settings section. Possible choices are to onboard team owners as channel owners, onboard team owners and members as channel owners and members respectively or specify channel owners and members in request form.
+
+### Overview & Control End users, Owners and Approvers
+- Request form was extended with possibility to specify owners and members of team private channels (if it is chosen corresponding option for corresponding channel in template designer).
+
+### Fixes
+- Fixed showing several approvers in requests overview bug.
+- Fixed line break bug when showing display name with prefix and suffix in request form.
+
+
+# Release notes December 3, 2021
+
+### Fixes
+- Fixed several typos in user interface.
+
+# Release notes December 2, 2021
+
+### Fixes
+- Fixed requests overview undefined approvers and requesters bug.
+
+# Release notes December 1, 2021
+
+### Fixes
+- Fixed showing user email data for users that doesn't have assigned email in user search input fields.
+- Fixed sorting requests overview table by template column.
+
+# Release notes November 24, 2021
+
+### Fixes
+- Fixed some dark theme bugs.
+
+# Release notes November 22, 2021
+
+### Fixes
+- Fixed import SharePoint sites bug.
+
+# Release notes November 18, 2021
+
+### Fixes
+- Fixed last activity date column sorting in Overview.
+- Fixed bug with navigating to request overview after request create or reject.
+
+# Release notes November 16, 2021
+
+### Fixes
+- Fixed bug with choosing users for user custom field in template settings and request form.
+
+
+# Release notes November 15, 2021
+
+### Fixes
+- Fixed bug with choosing options for multiselect dropdown custom field in template settings and request form.
+- Fixed bug with updating request status after request rejection.
+
+# Release notes November 12, 2021
+
+### Overview & Control End users, Owners and Approvers
+- Date column name in Overview was changed to Last activity and now shows group/team/site last activity date.
+
+# Release notes November 10, 2021
+
+### Fixes
+- Fixed bug with user fields validation in request form that allowed user to submit request while mandatory user fields were empty.
+- Fixed bug with showing owners data in new request form that haven't been shown correctly if "Requester as default owner" setting of owners field in corresponding template was on.
+
+# Release notes October 27, 2021
+
+### Fixes
+- Minor fixes.
+
+
+# Release notes October 28, 2021
+
+### Overview & Control Admins
+- Details page - it was removed restriction on performing operations with Teams apps and channels tabs. This functionality was available only for users that have global administrator role. Now this functionality is available also for team owners and members (if team settings allow members to manage apps/tabs).
+
+
+### Overview & Control End users, Owners and Approvers
+- Template settings - managing Teams apps and tabs is now allowed for Teams administrators (was allowed only for global administrators before).
+
+### Fixes
+- Fixed disabled Approve button for some requests bug.
+- Fixed creating groups that contain more than 20 users bug.
+
+# Release notes October 27, 2021
+
+### Fixes
+- Minor fixes.
+
+
+# Release notes October 20, 2021
+
+### Fixes
+- Fixed bug with creation of default Notebook as part of team provisioning. 
+- Fixed showing of custom fields in request form if custom fields are switched off in corresponding template settings. 
+- Fixed some validation errors in add custom field form in template settings.
+
+
+# Release notes October 19, 2021
+
+### Fixes
+- Fixed saving data in Overview settings and Request settings that didn't work as it should. 
+
+
+# Release notes October 18, 2021
+
+### Overview & Control Admins
+- It was added settings icon to Settings tab. Settings icon contains Sign out action.
+- It was added settings icon to Overview tab. Settings icon contains actions that allow user to sign out from application, import groups, navigate to Overview settings page and Request settings page. Import groups, navigate to Overview settings page and Request settings page were removed from Settings tab and now are located only under settings icon under Overview tab.
+
+### Overview & Control End users, Owners and Approvers
+- It was added settings icon to Overview tab. Settings icon contains Sign out action.
+
+### Fixes
+- Added one more fix for Limit who can submit requests section in Manage overview & request page that didn't work as expected concerning handling of groups added to Custom field.
+- Fixed dark mode behavior under request details page. 
+- Fixed editing naming policy under template settings bug.
+
+
+
+# Release notes October 12, 2021
+
+### Fixes
+- Fixed initializing new request form that didn't show any input fields but just loading.
+- Fixed adding several contacts in Company information page.
+
+# Release notes October 11, 2021
+
+### Overview & Control Admins
+- Template settings - it was added Custom fields section under Input field settings that allows to define custom fields of different types. Custom fields don't affect any data in AD and are suitable for providing extra data for request or provisioned group and exist only as part of application.
+- Settings tab was extended with Company information page where user can change company and contacts information (concerns modifying data that user provided when filling contact form when installing application for first time). Despite it user is provided with read-only tenant info that includes tenant type, tenant id and tenant-wide group settings. Each group setting has description that is shown when hovering on info button and link to tutorial about updating setting or place where user can update setting when clicking info button.  
+
+
+### Overview & Control End users, Owners and Approvers
+- New request form - it was added Custom fields that allow to provide more info about created group (if custom fields are activated for corresponding templates and marked as visible in request). 
+
+### Fixes
+- Fixed dark mode behavior under New template page. 
+- Performed fix for Limit who can submit requests section in Manage overview & request page that didn't work as expected concerning handling of groups added to Custom field.
+
+
+# Release notes October 4, 2021
+
+### Overview & Control End users, Owners and Approvers
+- It was added Export for Excel button to Overview page. Clicking button allows to export all data that is currently shown in Overview to Excel file that is downloaded to default folder for downloaded files.  
+
+
+# Release notes September 30, 2021
+
+### Overview & Control Admins
+- Template settings - connect to hub functionality was moved from SharePoint settings to input field settings.
+- Template settings - input field settings section was extended with register site as hub functionality.
+
+### Overview & Control End users, Owners and Approvers
+- New request form - it was added possibility to connect site to hub and to register site as hub as part of provisioning (if corresponding fields are marked as visible in request in corresponding template).
+
+### Fixes
+- Disabled possibility to edit fields of requests that has status submitted, created with errors or creation failed. 
+- Fixed showing of "allow add guests" and "register as hub" values in request details that were obtained from corresponding template but not from request data. 
+- Fixed showing horizontal scrollbar when not needed in Overview.
+
+
+# Release notes September 28, 2021
+
+### Fixes
+- Added auto updating of external sharing settings values in SharePoint settings section of templates based on tenant-wide external sharing policy so that corresponding template value can't be more permissive than corresponding tenant-wide value.
+- Added close icon to edit channel form in channel settings of team type template settings.
+- Fixed showing of no data in requester field of some requests in requests overview.
+- Improved adding external users process in user access page so that user doesn't need to wait until whole process is finished.
+- Fixed some typos.
+
+# Release notes September 24, 2021
+
+### Fixes
+- Fixed user search field in user access onboarding page that just showed loading and couldn't find any user. 
+
+
+# Release notes September 22, 2021
+
+### Fixes
+- Changed site address and team/group mailNickname validation process (concerns New request form) so that whole process is more correct and app performance is improved. 
+
+### Overview & Control Admins
+- User access page - all fields in add external user form are mandatory now.
+
+
+# Release notes September 14, 2021
+
+### Overview & Control End users, Owners and Approvers
+- It was added info message to New request page. Message is shown only if there is no templates available for user and indicates that user should contact administrator in order to be able to use templates for provisioning. 
+- Details page for teams was extended with uninstall teams app functionality. 
+
+
+# Release notes September 10, 2021
+
+### Fixes
+- Import job - fixed get SharePoint sites functionality that returned not all sites before. 
+- Fixed change filter in request overview bug that resulted in empty page when changing filter value before requests have been loaded. 
+
+
+# Release notes September 9, 2021
+
+
+### Overview & Control Admins
+- It was added functionality that allows admin users to force approve requests. It applies to requests where admin user is not among approvers and requests where admin user is one of several approvers but all approvers are required to approve request. In these cases admin user can force approve request despite request approvers settings.
+
+### Fixes
+- Fixed size of description that is shown in the upper section of details page (applies to too long description or description that contains several line breaks). 
+- Fixed showing New request page for usual users. It was shown empty page when opening New request page if Visibility settings of one of active templates was on but empty.
+- Fixed approve and delete old requests bugs (requests that existed before implementation of Communication site provisioning functionality).
+- Removed unnecessary info about assigning of sensitivity labels that appeared after request rejection.
+
 # Release notes September 3, 2021
 
 ### Fixes
