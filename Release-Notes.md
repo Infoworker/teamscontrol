@@ -1,3 +1,9 @@
+# Release notes February 2, 2022
+
+### Fixes
+- Fixed onboard security groups to SharePoint sites and as visitors to MS365 groups via details page and request form.
+- Fixed onboard MS365 groups to SharePoint sites and as visitors to MS365 groups as part of site/group provisioning.
+
 # Release notes January 31, 2022
 
 ### Fixes
